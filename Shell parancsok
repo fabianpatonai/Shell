@@ -1,1 +1,7 @@
-
+ls: listázza a fájlokat és könyvtárakat
+    ls -l: részletes listázás (jogosultságokkal, tulajdonossal, mérettel stb.)
+    ls -a: rejtett fájlokat is megjeleníti
+    ls -F: Átláthatóbbá teszi az "ls"-t különböző jelek hozzáadásával:
+                                                                    „/” = könyvtár. 
+                                                                    „*” = program. 
+                                                          "(nincs jel") = fájl
