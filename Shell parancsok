@@ -21,3 +21,15 @@ cd: A fájlrendszerben való helyváltoztatás parancsa a cd (munkakönyvtárunk
     cd -: Visszalép az utoljára használt könyvtárba.
     cd [útvonal]: Navigálás a megadott könyvtárba (lehet abszolút vagy relatív útvonal).
                          pl. cd /usr/local/bin    -►    Navigálás a /usr/local/bin könyvtárba az abszolút útvonal megadásával.
+
+mkdir [új könyvtár neve]: Új könyvtár létrehozása.
+                         pl. mkdir new_directory    -►    Létrehozza a new_directory könyvtárat.
+
+rmdir [könyvtár neve]: Üres könyvtár törlése. (Nem tudja törölni a könyvtárat, ha az nem üres!) Egyéb példák lent. ⥥
+                         pl. rmdir dir1 dir2 dir3    -►     Több üres könyvtár törlése (dir1, dir2 és dir3 könyvtárakat).
+            (rekurzívan) pl. rmdir -p /path/to/empty/dir    -►    
+                        
+rm -r: A könyvtár törlése úgy, hogy NEM ÜRES (tartalmaz fájlokat vagy alkönyvtárakat).
+
+cp: Fájl másolása.
+                         pl. cp source.txt destination.txt    -►    A source.txt fájlt másolja a destination.txt névvel.
