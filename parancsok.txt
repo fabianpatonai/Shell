@@ -1,5 +1,7 @@
 pwd: aktuális könyvtár kiírása [angolul: pwd = print working directory]
 
+"Tab": Automatikusan kiegészíti a parancsot, fájl vagy könyvtár nevét.
+
 ls: listázza a fájlokat és a könyvtárakat. [angolul: ls = listing (felsorolás)] Abc sorrendben, rendezett oszlopokba sorolva nyomtatja ki a fájlok és könyvtárak neveit az aktuális könyvtárban.
     ls -l: részletes listázás (jogosultságokkal, tulajdonossal, mérettel stb.)
     ls -a: rejtett fájlokat is megjeleníti.
@@ -8,7 +10,7 @@ ls: listázza a fájlokat és a könyvtárakat. [angolul: ls = listing (felsorol
                                                                     „*” = program. 
                                                           "(nincs jel") = fájl
 
-clear VAGY ctrl + L: képernyő (parancsok és minden más) törlése
+clear VAGY "ctrl + L": képernyő (parancsok és minden más) törlése
 
 cd: A fájlrendszerben való helyváltoztatás parancsa a cd (munkakönyvtárunk megváltoztatása). Példák lent. ⥥
 
