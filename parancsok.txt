@@ -43,3 +43,5 @@ cat: Fájl tartalmának megjelenítése.
 
 touch: Üres fájl létrehozása, vagy egy fájl módosítási idejének frissítése.
                          pl. touch newfile.txt    -►    Létrehoz egy új fájlt.
+
+man [parancs neve]: Leírást ad a parancsról, hogy mire jó, mit lehet vele csinálni (man=manual vagyis kézikönyv).
