@@ -45,3 +45,7 @@ touch: Üres fájl létrehozása, vagy egy fájl módosítási idejének frissí
                          pl. touch newfile.txt    -►    Létrehoz egy új fájlt.
 
 man [parancs neve]: Leírást ad a parancsról, hogy mire jó, mit lehet vele csinálni (man=manual vagyis kézikönyv).
+                         irányítás:     nyíl(↑↓): görgetés fel-le
+                                        Space: egy oldalt előre ugrik
+                                        b: egy oldalt hátra ugrik
+                                        q: kilépés
