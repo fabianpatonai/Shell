@@ -37,3 +37,9 @@ cp: Fájl másolása.
 mv: Fájl átnevezése vagy áthelyezése.
                 Átnevezés: pl. mv old_name.txt new_name.txt
                 Áthelyezés: pl. mv file.txt /path/to/new/location/
+
+cat: Fájl tartalmának megjelenítése.
+                         pl. cat file.txt:    -►    Kiírja a fájl tartalmát a konzolra.
+
+touch: Üres fájl létrehozása, vagy egy fájl módosítási idejének frissítése.
+                         pl. touch newfile.txt    -►    Létrehoz egy új fájlt.
