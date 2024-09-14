@@ -15,7 +15,7 @@ clear VAGY "ctrl + L": képernyő (parancsok és minden más) törlése
 cd: A fájlrendszerben való helyváltoztatás parancsa a cd (munkakönyvtárunk megváltoztatása). Példák lent. ⥥
 
     cd [könyvtár neve]: A kiválasztott könyvtárba megy.
-    cd: Home könyvtárába ugrás (a felhasználó home könyvtárába).
+    cd VAGY cd ~: Home könyvtárába ugrás (a felhasználó home könyvtárába).
     cd /: Gyökérkönyvtárba ugrás. A fájlrendszer legfelső szintje, innen minden könyvtár elérhető (home könyvtár is).
     cd ..: Egy szinttel feljebb lép (az aktuális könyvtár "szülőkönyvtárában").
     cd ../..: Kettő szinttel feljebb lép.
